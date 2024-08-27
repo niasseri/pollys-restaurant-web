@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollys Restaurant</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pollys Restaurant</h1>
+        <div class="menu-grid">
+            <!-- Artikel werden hier per JavaScript hinzugefügt -->
+        </div>
+        <button id="viewOrderButton">Bestellung ansehen</button>
+    </div>
+
+    <!-- Bestellungs-Modal -->
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Bestellübersicht</h2>
+            <div id="orderSummary"></div>
+            <button id="completeOrderButton">Bestellung abschließen</button>
+        </div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
